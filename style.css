@@ -8,20 +8,23 @@
 }
 .logo{
    padding-left : 20px;
-   padding-top: 10px;
+   padding-top: 1px;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
 div .link a {
    color: #ffffff;
-   padding-right: 20px; 
-   margin-right: 20px;
+   padding: 10px 10px;
+   margin: 10px;
+   
    text-decoration: none;
    }
 div .link a:hover {
-   color: #dabe99;
-   text-decoration: none;
+   background-color: #c9a76d;
+   border-radius: 15px;
+   padding: 10px;
+   margin: 10px;
 }
 .main1 {
    color: #ffffff;
@@ -40,23 +43,54 @@ h1 {
    align-items: center;
    justify-content: center;
    text-align: center;
-
 }
-.btns {
+.main3{
+   display: flex;
+   align-items: center;
+      justify-content: center;
+}
+div .btns button {
+   border-radius: 15px;
    display: flex;
    justify-content: center;
    align-items: center;
-   padding-top: 10px;
-  
+   padding: 10px; 
+   margin: 10px;
    border: none;
-   color: white;
-   padding: 15px 32px;
+   color: #ffffff;
+   background-color: #c9a76d;
    text-align: center;
    text-decoration: none;
-   display: inline-block;
+   display:  inline-block;
    font-size: 16px;
+   padding: 10px;
+   margin-right: 10px;
+   cursor: pointer ;
+   border: solid;
+  
 }
 
-.btn:hover {
-   background-color: #c9a76d;
+div .btn:hover {
+   background-color: #ca8745;
+}
+
+div .btns1 button {
+   
+   border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+      border: none;
+      color: #ffffff;
+      background-color: #c9a76d00;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      padding: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      border: solid;
 }
